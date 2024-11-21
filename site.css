@@ -63,8 +63,47 @@ body {
     font-size: 32px;
 }
 
+@media only screen and (max-width: 500px) {
+    .carousel-caption h3 {
+        font-size: 20px;
+    }
+}
+
 .carousel-caption p {
     color: #ffffff;
 }
+
+.rowposter {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+
+}
+
+.rowposter a {
+    cursor: inherit;
+
+}
+
+.rowimg {
+    margin-right: 10px;
+    border-radius: 20px;
+    box-sizing: content-box;
+    transition: transform 450ms;
+    max-height: 300px;
+    object-fit: contain;
+}
+
+.rowimg:hover {
+  transform: scale(1.10);
+}
+
+.rowposter::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
 
 
