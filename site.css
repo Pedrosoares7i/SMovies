@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.navbar {
+    backdrop-filter: blur(2px);
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-brand {
+    color: #e50914;
+    font-weight: bold;
+}
+
+.navbar .nav-item .nav-link {
+    color: #e50914;
+}
+
+.scrolled {
+    background-color: #000000;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 100vh; 
+}
+
+.carousel-item {
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-inner .carousel-item img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    display: block; 
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    width: 100%;
+    left: 0;
+    padding: 20px 5%; 
+    text-align: center; 
+}
+
+.carousel-caption h3 {
+    color: #e50914;
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.carousel-caption p {
+    color: #ffffff;
+}
+
+
