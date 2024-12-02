@@ -10,22 +10,67 @@
 
 </head>
 
-<body style="background-color: black;">
-    <div class="card">
-        <img src="img/pedrynn.png" alt="Your Name" class="profile-image">
-        <h1>Pedro Soares</h1>
-        <p class="title">Criador da PFLIX</p>
-        <p class="description">Apaixonado por tecnologia e desenvolvimento web, sempre em busca de soluções criativas e
-            inovadoras com HTML, CSS e JavaScript.</p>
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/pedro-soares-a887a7323/" target="_blank" class="social-icon">
-                    <i class='bx bxl-linkedin'></i>
-                </a>
-                <a href="https://github.com/Pedrosoares7i" target="_blank" class="social-icon">
-                    <i class='bx bxl-github'></i>
-                </a>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <link rel="stylesheet" href="sobre.css">
+    <link href="https://cdn.jsdelivr.net/npm/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="site.css">
+</head>
+
+<body class="bg-dark">
+    <!-- Começa aqui a navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">PFLIX</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="sobre.html">Sobre</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="pesquisar.html">Pesquisar</a>
+                    </li>
+                </ul>
             </div>
-            
+        </div>
+    </nav>
+    <!-- Termina aqui a navbar -->
+    <!-- Começo do card -->
+    <div class="card" id="container">
+        <div class="card-details">
+            <h3>Pedro Soares </h3>
+            <h2 class="text-title">Criador da PFLIX</h2>
+
+            <img src="img/pedrynn.png" alt="Foto de Pedro Soares" class="profile-image">
+            <p class="text-body">Apaixonado por tecnologia e desenvolvimento web. Sempre explorando HTML, CSS e
+                JavaScript para criar projetos incríveis.</p>
+                <a href="https://github.com/Pedrosoares7i" target="_blank" id="icons"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/pedro-soares-a887a7323/" target="_blank" id="icons"><i class='bx bxl-linkedin'></i></a>
+          
+        </div>
+        <button class="card-button">PFLIX</button>
+    </div>
+    <!-- Fim do card -->
+</body>
+
+</html>
+
+
+
 </body>
 
 </html>

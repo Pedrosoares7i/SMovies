@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-dark">
+    <header>
+    <div class="logo" class="topo">
+        <span>P</span>FLIX
+    </div>
+</header>
+    <div class="d-flex justify-content-center align-items-center vh-100">
+        <form class="form" id="loginForm">
+            <div class="title">Bem-vindo! <br><span>Faça login para continuar</span></div>
+            <input type="text" class="input" placeholder="Usuário" required>
+            <input type="password" class="input" placeholder="Senha" required>
+            <button type="button" class="button-confirm" id="loginButton">Entrar</button>
+        </form>
+    </div>
+    <script>
+        // Redireciona ao clicar no botão
+        document.getElementById("loginButton").addEventListener("click", function() {
+            window.location.href = "index.html";
+        });
+    </script>
+</body>
+</html>
